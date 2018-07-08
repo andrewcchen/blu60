@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name mx1a-simple)(type Legacy)(uri ${KIPRJMOD}/lib/mx1a-simple.lib)(options "")(descr ""))
+  (lib (name batmgmt)(type Legacy)(uri {KIPRJMOD}/lib/batmgmt.lib)(options "")(descr ""))
+)
