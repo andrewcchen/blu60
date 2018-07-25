@@ -8,4 +8,6 @@
   (lib (name dtsm)(type KiCad)(uri "$(KIPRJMOD)/lib/dtsm.pretty")(options "")(descr ""))
   (lib (name logos)(type KiCad)(uri "$(KIPRJMOD)/lib/logos.pretty")(options "")(descr ""))
   (lib (name res)(type KiCad)(uri "$(KIPRJMOD)/lib/res.pretty")(options "")(descr ""))
+  (lib (name switch)(type KiCad)(uri ${KIPRJMOD}/lib/switch.pretty)(options "")(descr ""))
+  (lib (name swd)(type KiCad)(uri ${KIPRJMOD}/lib/swd.pretty)(options "")(descr ""))
 )
