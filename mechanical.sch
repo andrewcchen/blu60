@@ -1,11 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:mx1a-simple
-LIBS:aker
-LIBS:atmega32u4
-LIBS:dtsjw
-LIBS:oupiin_usb
-LIBS:device
-LIBS:conn
 LIBS:keyboard-cache
 EELAYER 26 0
 EELAYER END
