@@ -1,4 +1,4 @@
-update=Sun 01 May 2016 11:31:22 PM CEST
+update=Sun 05 Aug 2018 10:47:56 NZST
 version=1
 last_client=kicad
 [general]
@@ -15,7 +15,6 @@ RptD_Y=100
 RptLab=1
 LabSize=60
 [eeschema/libraries]
-LibName1=power
 LibName2=mx1a-simple
 LibName3=aker
 LibName4=atmega32u4
@@ -66,6 +65,6 @@ PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
+SpiceAjustPassiveValues=0
 LabSize=60
+ERC_TestSimilarLabels=1

@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
 LIBS:atmega32u4
@@ -653,12 +652,12 @@ $Comp
 L mx1a-simple:MX1A S171
 U 1 1 5040E2D0
 P 11750 7350
-F 0 "S171" H 11600 7600 60  0000 C CNN
+F 0 "S171" H 11900 7600 60  0000 C CNN
 F 1 "MX1A" H 11750 7450 60  0000 C CNN
 F 2 "mx1a:MX1A_no3d" H 11750 7350 60  0001 C CNN
 F 3 "" H 11750 7350 60  0001 C CNN
 	1    11750 7350
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L mx1a-simple:MX1A S178
@@ -774,12 +773,12 @@ $Comp
 L mx1a-simple:MX1A S135
 U 1 1 5040FAF4
 P 6850 8850
-F 0 "S135" H 6700 9100 60  0000 C CNN
+F 0 "S135" H 7000 9100 60  0000 C CNN
 F 1 "MX1A" H 6850 8950 60  0000 C CNN
 F 2 "mx1a:MX1A_no3d" H 6850 8850 60  0001 C CNN
 F 3 "" H 6850 8850 60  0001 C CNN
 	1    6850 8850
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L mx1a-simple:MX1A S106
@@ -796,12 +795,12 @@ $Comp
 L mx1a-simple:MX1A S170
 U 1 1 5040DEFF
 P 11750 7050
-F 0 "S170" H 11600 7300 60  0000 C CNN
+F 0 "S170" H 11900 7300 60  0000 C CNN
 F 1 "MX1A" H 11750 7150 60  0000 C CNN
 F 2 "mx1a:MX1A_no3d" H 11750 7050 60  0001 C CNN
 F 3 "" H 11750 7050 60  0001 C CNN
 	1    11750 7050
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L mx1a-simple:MX1A S105
@@ -927,12 +926,12 @@ $Comp
 L mx1a-simple:MX1A S181
 U 1 1 5051FE50
 P 12450 7350
-F 0 "S181" H 12600 7600 60  0000 C CNN
+F 0 "S181" H 12300 7600 60  0000 C CNN
 F 1 "MX1A" H 12450 7450 60  0000 C CNN
 F 2 "mx1a:MX1A_no3d" H 12450 7350 60  0001 C CNN
 F 3 "" H 12450 7350 60  0001 C CNN
 	1    12450 7350
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 $Comp
 L mx1a-simple:MX1A S182
@@ -1761,7 +1760,7 @@ $Comp
 L Device:D_x2_KCom_AAK D101
 U 1 1 5B6C3490
 P 3400 3950
-F 0 "D101" V 3200 3900 50  0000 R BNN
+F 0 "D101" V 3150 3900 50  0000 R TNN
 F 1 "D_x2_KCom_AAK" V 3355 4029 50  0001 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3400 3950 50  0001 C CNN
 F 3 "~" H 3400 3950 50  0001 C CNN
@@ -1792,12 +1791,12 @@ $Comp
 L Device:D_x2_KCom_AAK D104
 U 1 1 5C200A9A
 P 4100 3950
-F 0 "D104" V 4300 3900 50  0000 R TNN
+F 0 "D104" V 3850 3900 50  0000 R TNN
 F 1 "D_x2_KCom_AAK" V 4055 4029 50  0001 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4100 3950 50  0001 C CNN
 F 3 "~" H 4100 3950 50  0001 C CNN
 	1    4100 3950
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	4950 3200 4950 3450
@@ -1813,12 +1812,12 @@ $Comp
 L Device:D_x2_KCom_AAK D107
 U 1 1 5C269BB2
 P 4800 3950
-F 0 "D107" V 5000 3900 50  0000 R TNN
+F 0 "D107" V 4550 3900 50  0000 R TNN
 F 1 "D_x2_KCom_AAK" V 4755 4029 50  0001 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4800 3950 50  0001 C CNN
 F 3 "~" H 4800 3950 50  0001 C CNN
 	1    4800 3950
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	5650 3200 5650 3450
@@ -1834,12 +1833,12 @@ $Comp
 L Device:D_x2_KCom_AAK D110
 U 1 1 5C3A572D
 P 5500 3950
-F 0 "D110" V 5700 3900 50  0000 R TNN
+F 0 "D110" V 5250 3900 50  0000 R TNN
 F 1 "D_x2_KCom_AAK" V 5455 4029 50  0001 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5500 3950 50  0001 C CNN
 F 3 "~" H 5500 3950 50  0001 C CNN
 	1    5500 3950
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	6350 3200 6350 3450
@@ -1876,12 +1875,12 @@ $Comp
 L Device:D_x2_KCom_AAK D114
 U 1 1 5C478F5A
 P 6900 3950
-F 0 "D114" V 7100 3900 50  0000 R TNN
+F 0 "D114" V 6650 3900 50  0000 R TNN
 F 1 "D_x2_KCom_AAK" V 6855 4029 50  0001 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 6900 3950 50  0001 C CNN
 F 3 "~" H 6900 3950 50  0001 C CNN
 	1    6900 3950
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	7750 3200 7750 3450
@@ -1902,7 +1901,7 @@ F 1 "D_x2_KCom_AAK" V 7555 4029 50  0001 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 7600 3950 50  0001 C CNN
 F 3 "~" H 7600 3950 50  0001 C CNN
 	1    7600 3950
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	8450 3200 8450 3450
@@ -1923,7 +1922,7 @@ F 1 "D_x2_KCom_AAK" V 8255 4029 50  0001 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 8300 3950 50  0001 C CNN
 F 3 "~" H 8300 3950 50  0001 C CNN
 	1    8300 3950
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	9150 3200 9150 3450
@@ -1944,7 +1943,7 @@ F 1 "D_x2_KCom_AAK" V 8955 4029 50  0001 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 9000 3950 50  0001 C CNN
 F 3 "~" H 9000 3950 50  0001 C CNN
 	1    9000 3950
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	9850 3200 9850 3450
@@ -1965,7 +1964,7 @@ F 1 "D_x2_KCom_AAK" V 9655 4029 50  0001 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 9700 3950 50  0001 C CNN
 F 3 "~" H 9700 3950 50  0001 C CNN
 	1    9700 3950
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	10550 3200 10550 3450
@@ -1986,7 +1985,7 @@ F 1 "D_x2_KCom_AAK" V 10355 4029 50  0001 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 10400 3950 50  0001 C CNN
 F 3 "~" H 10400 3950 50  0001 C CNN
 	1    10400 3950
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	11250 3200 11250 3450
@@ -2007,7 +2006,7 @@ F 1 "D_x2_KCom_AAK" V 11055 4029 50  0001 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 11100 3950 50  0001 C CNN
 F 3 "~" H 11100 3950 50  0001 C CNN
 	1    11100 3950
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	11950 3200 11950 3450
@@ -2028,7 +2027,7 @@ F 1 "D_x2_KCom_AAK" V 11755 4029 50  0001 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 11800 3950 50  0001 C CNN
 F 3 "~" H 11800 3950 50  0001 C CNN
 	1    11800 3950
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	12650 4400 12650 4250
@@ -2043,7 +2042,7 @@ F 1 "D_x2_KCom_AAK" V 12455 4029 50  0001 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 12500 3950 50  0001 C CNN
 F 3 "~" H 12500 3950 50  0001 C CNN
 	1    12500 3950
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	12650 3200 12650 3500
@@ -2057,13 +2056,9 @@ Wire Wire Line
 Wire Wire Line
 	8500 1400 8500 3950
 Wire Wire Line
-	4300 1400 4300 3950
-Wire Wire Line
 	5000 1400 5000 3950
 Wire Wire Line
 	5700 1400 5700 3950
-Wire Wire Line
-	7100 1400 7100 3950
 Wire Wire Line
 	7800 1400 7800 3950
 Wire Wire Line
@@ -2123,9 +2118,6 @@ Wire Wire Line
 	4100 6500 4250 6500
 Wire Wire Line
 	4250 6500 4250 6900
-Connection ~ 4300 3950
-Wire Wire Line
-	4300 3950 4300 6050
 Connection ~ 5000 3950
 Wire Wire Line
 	5000 3950 5000 6050
@@ -2137,8 +2129,6 @@ Connection ~ 12700 3950
 Wire Wire Line
 	12700 3950 12700 6450
 Connection ~ 12000 3950
-Wire Wire Line
-	12000 3950 12000 6050
 Connection ~ 11300 3950
 Wire Wire Line
 	11300 3950 11300 6050
@@ -2155,9 +2145,6 @@ Connection ~ 8500 3950
 Connection ~ 7800 3950
 Wire Wire Line
 	7800 3950 7800 6050
-Connection ~ 7100 3950
-Wire Wire Line
-	7100 3950 7100 6050
 Wire Wire Line
 	6400 3950 6400 6050
 $Comp
@@ -2401,7 +2388,7 @@ F 1 "D_x2_KCom_AAK" V 11755 6129 50  0001 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 11800 6050 50  0001 C CNN
 F 3 "~" H 11800 6050 50  0001 C CNN
 	1    11800 6050
-	0    -1   1    0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	11950 5400 11950 5600
@@ -2415,7 +2402,6 @@ Wire Wire Line
 	11800 6500 11950 6500
 Wire Wire Line
 	11950 6500 11950 6900
-Connection ~ 12000 6050
 Connection ~ 11300 6050
 Connection ~ 10600 6050
 Connection ~ 9900 6050
@@ -2630,8 +2616,6 @@ F 3 "" H 11900 9000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	12000 6050 12000 9150
-Wire Wire Line
 	11950 8700 11950 8850
 Wire Wire Line
 	11950 8850 11900 8850
@@ -2672,4 +2656,20 @@ Wire Wire Line
 Connection ~ 3600 3950
 Wire Wire Line
 	3600 3950 3600 6450
+Connection ~ 11950 6900
+Wire Wire Line
+	4300 1400 4300 3950
+Connection ~ 4300 3950
+Wire Wire Line
+	4300 3950 4300 6050
+Connection ~ 7100 3950
+Wire Wire Line
+	7100 3950 7100 6050
+Wire Wire Line
+	7100 1400 7100 3950
+Wire Wire Line
+	12000 3950 12000 6050
+Connection ~ 12000 6050
+Wire Wire Line
+	12000 6050 12000 9150
 $EndSCHEMATC

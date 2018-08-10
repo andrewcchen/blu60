@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
 LIBS:atmega32u4
