@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP BQ21040
-D 0.8-A, Single-Input, Single Cell Li-Ion and Li-Pol Battery Charger
-K battery charger lithium
-F http://www.ti.com/lit/ds/symlink/bq21040.pdf
-$ENDCMP
-#
-#End Doc Library

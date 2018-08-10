@@ -1,4 +1,5 @@
 *.bak
+*.bck
 *.net
 /gerber/
 /*.kicad_pcb-bak
