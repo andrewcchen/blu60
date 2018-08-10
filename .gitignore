@@ -3,4 +3,3 @@
 *.net
 /gerber/
 /*.kicad_pcb-bak
-/*-cache.lib

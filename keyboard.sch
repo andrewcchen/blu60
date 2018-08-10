@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:keyboard-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -572,7 +571,7 @@ U 1 1 5B6D3C72
 P 10250 7450
 F 0 "J5" H 10330 7442 50  0000 L CNN
 F 1 "Conn_01x10" H 10330 7351 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 10250 7450 50  0001 C CNN
+F 2 "header:PinHeader_1x10_P2.54mm_Vertical" H 10250 7450 50  0001 C CNN
 F 3 "~" H 10250 7450 50  0001 C CNN
 	1    10250 7450
 	1    0    0    -1  
