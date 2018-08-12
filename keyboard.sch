@@ -489,6 +489,7 @@ F 0 "J4" H 9450 5550 50  0000 R CNN
 F 1 "Conn_ARM_JTAG_SWD_10" H 9450 5450 50  0000 R CNN
 F 2 "swd:PinHeader_2x05_P1.27mm_Vertical_SMD" H 9950 4950 50  0001 L TNN
 F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf" V 9550 4250 50  0001 C CNN
+F 4 "FTSH-105-01-L-DV-K" H 9900 5500 50  0001 C CNN "Part"
 	1    9900 5500
 	-1   0    0    -1  
 $EndComp
@@ -704,7 +705,7 @@ U 1 1 5BC48D36
 P 2150 3050
 F 0 "R2" H 2200 3000 50  0000 L CNN
 F 1 "1.5k" H 2200 3100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" V 2080 3050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2080 3050 50  0001 C CNN
 F 3 "~" H 2150 3050 50  0001 C CNN
 	1    2150 3050
 	-1   0    0    1   
@@ -971,7 +972,7 @@ L Device:R R4
 U 1 1 5B7064CE
 P 2300 9300
 F 0 "R4" H 2250 9350 50  0000 R CNN
-F 1 "10k" H 2250 9250 50  0000 R CNN
+F 1 "100k" H 2250 9250 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2230 9300 50  0001 C CNN
 F 3 "~" H 2300 9300 50  0001 C CNN
 	1    2300 9300
