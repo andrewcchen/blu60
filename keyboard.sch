@@ -1,13 +1,14 @@
 EESchema Schematic File Version 4
+LIBS:keyboard-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 4
-Title "ukbdc - schematic"
-Date "17 jul 2013"
+Title ""
+Date "2018-08-12"
 Rev ""
-Comp "komar"
+Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -550,7 +551,7 @@ Text Notes 4950 2500 2    60   ~ 0
 Charging indicator
 Wire Wire Line
 	2300 1700 2300 3850
-Text Label 2100 2900 2    50   ~ 0
+Text Label 2150 2900 2    60   ~ 0
 USB_PU
 $Comp
 L power:+3.3V #PWR03
@@ -665,13 +666,6 @@ Wire Wire Line
 	9550 1900 9550 2000
 Wire Wire Line
 	9350 1600 9550 1600
-Wire Wire Line
-	9050 2000 9350 2000
-Wire Wire Line
-	9350 1700 9350 2000
-Connection ~ 9350 2000
-Wire Wire Line
-	9350 2000 9550 2000
 $Comp
 L Connector_Generic:Conn_01x02 J3
 U 1 1 5B9A3FD4
@@ -722,7 +716,7 @@ L Device:Q_NMOS_GSD Q1
 U 1 1 5B62F2AA
 P 2100 9150
 F 0 "Q1" H 2300 9200 50  0000 L CNN
-F 1 "Q_NMOS_GSD" H 2300 9100 50  0000 L CNN
+F 1 "Q_NMOS" H 2300 9100 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2300 9250 50  0001 C CNN
 F 3 "~" H 2100 9150 50  0001 C CNN
 	1    2100 9150
@@ -1053,17 +1047,11 @@ Connection ~ 2250 3200
 Wire Wire Line
 	2250 3200 2250 3900
 Wire Wire Line
-	1800 2900 1800 3950
-Wire Wire Line
 	1800 2900 2150 2900
-Wire Wire Line
-	1800 3950 7400 3950
 Wire Wire Line
 	6900 5100 7600 5100
 Wire Wire Line
 	6900 5200 7600 5200
-Wire Wire Line
-	7400 3950 7400 5500
 Wire Wire Line
 	7400 5500 6900 5500
 Wire Wire Line
@@ -1124,7 +1112,7 @@ Entry Wire Line
 	7600 6300 7700 6200
 Entry Wire Line
 	7600 6400 7700 6300
-Text Label 6950 5500 0    50   ~ 0
+Text Label 6950 5500 0    60   ~ 0
 USB_PU
 Text Label 6950 5600 0    60   ~ 0
 VBAT_SENSE
@@ -1157,6 +1145,15 @@ Wire Wire Line
 	3050 5100 4900 5100
 Wire Wire Line
 	3750 5200 4900 5200
+Wire Wire Line
+	1800 4000 7400 4000
+Wire Wire Line
+	7400 4000 7400 5500
+Wire Wire Line
+	1800 2900 1800 4000
+Wire Wire Line
+	9050 2000 9550 2000
+NoConn ~ 9350 1700
 Wire Bus Line
 	7700 5000 7700 6750
 Wire Bus Line

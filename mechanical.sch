@@ -1,11 +1,12 @@
 EESchema Schematic File Version 4
+LIBS:keyboard-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
 Title ""
-Date ""
+Date "2018-08-12"
 Rev ""
 Comp ""
 Comment1 ""
