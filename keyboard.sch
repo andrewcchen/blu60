@@ -5,9 +5,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 4
-Title ""
+Title "BLU60"
 Date "2018-08-12"
-Rev ""
+Rev "v0.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -461,7 +461,6 @@ Wire Wire Line
 	6900 5800 7400 5800
 Text Label 6950 5800 0    60   ~ 0
 col3
-NoConn ~ 1400 2100
 Text Label 6950 5700 0    60   ~ 0
 col4
 Wire Wire Line
@@ -1155,6 +1154,9 @@ Wire Wire Line
 Wire Wire Line
 	9050 2000 9550 2000
 NoConn ~ 9350 1700
+Wire Wire Line
+	1400 2100 1500 2100
+Connection ~ 1500 2100
 Wire Bus Line
 	7700 5000 7700 6750
 Wire Bus Line

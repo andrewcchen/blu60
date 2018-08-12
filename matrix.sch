@@ -5,9 +5,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 4
-Title ""
+Title "BLU60"
 Date "2018-08-12"
-Rev ""
+Rev "v0.1"
 Comp ""
 Comment1 ""
 Comment2 ""
