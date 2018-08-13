@@ -577,9 +577,9 @@ F 3 "~" H 10250 7450 50  0001 C CNN
 	1    10250 7450
 	1    0    0    -1  
 $EndComp
-Text Label 9950 7050 2    60   ~ 0
-SWDIO
 Text Label 9950 7150 2    60   ~ 0
+SWDIO
+Text Label 9950 7050 2    60   ~ 0
 SWDCLK
 $Comp
 L power:+3.3V #PWR018
@@ -651,9 +651,9 @@ Wire Wire Line
 Connection ~ 7950 1600
 Wire Wire Line
 	7950 1600 8550 1600
-Text Label 9350 5400 2    60   ~ 0
-SWDIO
 Text Label 9350 5500 2    60   ~ 0
+SWDIO
+Text Label 9350 5400 2    60   ~ 0
 SWDCLK
 Text Label 9350 5600 2    60   ~ 0
 SWO
