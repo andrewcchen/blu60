@@ -1,0 +1,22 @@
+(module mx1a:MX1A (layer F.Cu) (tedit 5B417B11)
+  (fp_text reference S101 (at -4.826 9.2075) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3048)))
+  )
+  (fp_text value MX1A (at -5.08 -8.89) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3048)))
+  )
+  (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
+  (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
+  (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
+  (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
+  (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 2.54 -5.08) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at -3.81 -2.54) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at -5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/lib/mx1a.pretty/cherrymx.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
