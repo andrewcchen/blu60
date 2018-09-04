@@ -5,4 +5,5 @@
   (lib (name switch)(type KiCad)(uri ${KIPRJMOD}/lib/switch.pretty)(options "")(descr ""))
   (lib (name swd)(type KiCad)(uri ${KIPRJMOD}/lib/swd.pretty)(options "")(descr ""))
   (lib (name header)(type KiCad)(uri ${KIPRJMOD}/lib/header.pretty)(options "")(descr ""))
+  (lib (name usb)(type KiCad)(uri ${KIPRJMOD}/lib/usb.pretty)(options "")(descr ""))
 )
